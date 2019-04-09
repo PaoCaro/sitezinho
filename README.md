@@ -1,5 +1,6 @@
-# sitezinho eu copiei apenas este texto <br>
+# <strong>UM BELO SITEZINHO</strong> eu copiei apenas este texto <br>
 # para ficar mais bonitinho
+<p> deixem me em paz e ser feliz </p>
 
 <h1 align="center">
   <a href="https://facebook.github.io/react-native/">
