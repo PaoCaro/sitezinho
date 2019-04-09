@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+<head>
+    <title>Netinho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Margarine|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="iframe.css">
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+            
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 0;
+            height: 100%;
+            transition: .5s ease;
+            
+        }
+
+        .container:hover .overlay {
+            width: 100%;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        p {
+            font-family: 'Margarine', cursive;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="images/netodemoura.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text">
+        <hr>        
+                "Por causa de observações como esta, o juiz Neto de Moura 
+        <br>        
+                ameaça agora processar-me.
+        <br>        
+                Portanto, na perspetiva dele
+        <br>
+            rebentar o tímpano ainda é como o outro. Agora
+        <br>    
+            escárnio? Sarcasmos? Poça, isso aleija."
+            <br>
+            <hr>
+            Ricardo Araújo Pereira
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
