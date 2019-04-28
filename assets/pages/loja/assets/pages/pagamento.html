@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+
+<h2>Pagamento <i class="fa fa-cc-visa" style="color:navy;"></i></h2>
+<p>Resize the browser window to see the effect. When the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Informações</h3>
+            <label for="fname"><i class="fa fa-user"></i> Nome Completo</label>
+            <input type="text" id="fname" name="firstname" placeholder="Zé Artur Oliveira Carvalho">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="zé@examplo.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Morada</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> Cidade</label>
+            <input type="text" id="city" name="city" placeholder="Lisboa">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Distrito</label>
+                <input type="text" id="state" name="state" placeholder="">
+              </div>
+              <div class="col-50">
+                <label for="zip">Codigo Postal</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Pagamento</h3>
+            <label for="fname">Cartões Aceites</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Nome do Cartão</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Numero do Cartão</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Mês</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Ano</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Li e concordo com os termos de uso ( Ninguem lê xD)
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Produtos selecionado</a> <span class="price">74€</span></p>
+      <p><a href="#">Impostos</a> <span class="price">1€</span></p>
+      <p><a href="#">Apoiar o Tiaguinho
+      <br>
+      <strong>Obrigatório !</strong></a> <span class="price">10€</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>85€</b></span></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

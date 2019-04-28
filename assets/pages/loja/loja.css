@@ -14,7 +14,9 @@
 .menu>ul{
 	list-style:none;	
 	position:relative;
-	margin-left:500px;
+	/** Se der algumm problema foi aqui Tiaguinhoo!!
+	 * ok? */
+	margin-left: 299px;
 	}
 .menu ul li{
 		width:200px;
