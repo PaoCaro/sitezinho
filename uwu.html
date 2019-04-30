@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="uwu.css">
         <link rel="stylesheet" href="iframe.css">
-        <link rel="stylesheet" href="uwu.js">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="import" href="js/perder-tempo.js">
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> <!-- titulo -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!-- Family -->
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -47,39 +48,12 @@
         <div id="progresso">
           <div id="barra">0%</div>
           <button onclick="moverr()">Perder Tempo</button>
-          <script>
-            function moverr() {
-                var elem = document.getElementById("barra");
-                var width = 10;
-                var id = setInterval(frame, 10);
-                function frame() {
-                  if (width >= 100) {
-                    clearInterval(id);
-                  } else {
-                    width++;
-                    elem.style.width = width + '%';
-                    elem.innerHTML = width * 1 + '%';
-                  }
-                }
-              }
-          </script>
+          <script src="js/perdertempo.js"></script>
         </div>
         </div>
       <button onclick="typeWriter()">Clica força!</button>
       <p id="demo"></p>
-      <script>
-      var i = 0;
-        var txt = 'Situado no extremo sudoeste da Europa, Portugal Continental faz fronteira apenas com um outro país, Espanha a Este e a Norte, a Oeste e a Sul é limitado pelo Atlântico. O território é dividido no continente pelo rio principal, o Tejo. A norte, a paisagem é montanhosa nas zonas do interior com planaltos, intercalados por áreas que permitem o desenvolvimento da agricultura. Ok vamos pensar um pouco........ porque estás mesmo a lêr isto? Bom eu vou me embora :)!........ NÃO!! agora vais continuar a lêr! O território dentro das fronteiras atuais da República Portuguesa tem sido continuamente povoado desde os tempos pré-históricos: ocupado por celtas, como os galaicos e os lusitanos, foi integrado na República Romana e mais tarde colonizado por povos germânicos, como os suevos e os visigodos. No século VIII, as terras foram conquistadas pelos mouros. Durante a Reconquista cristã foi formado o Condado Portucalense,  estabelecido no século IX por Vímara Peres, um vassalo do rei das Astúrias. O condado tornou-se parte do Reino de León em 1097, e os condes de Portugal estabeleceram-se como governantes independentes do reino no século XII, após a batalha de São Mamede. Com o estabelecimento do Reino de Portugal em 1139, cuja independência foi reconhecida em 1143. OK OK OK......... Vamos falar sobre ..... ... . . ... Camões? Pouco se sabe com certeza sobre a sua vida. Aparentemente nasceu em Lisboa, de uma família da pequena nobreza. Sobre a sua infância tudo é conjetura mas, ainda jovem, terá recebido uma sólida educação nos moldes clássicos, dominando o latim e conhecendo a literatura e a história antigas e modernas. Pode ter estudado na Universidade de Coimbra, mas a sua passagem pela escola não é documentada. Frequentou a corte de D. João III, iniciou a sua carreira como poeta lírico e envolveu-se, como narra a tradição, em amores com damas da nobreza e possivelmente plebeias, além de levar uma vida boémia e turbulenta. Diz-se que, por conta de um amor frustrado, autoexilou-se em África, alistado como militar, onde perdeu um olho em batalha. Voltando a Portugal, feriu um servo do Paço e foi preso. Perdoado, partiu para o Oriente. Passando lá vários anos, enfrentou uma série de adversidades, foi preso várias vezes, combateu ao lado das forças portuguesas e escreveu a sua obra mais conhecida, a epopeia nacionalista Os Lusíadas. De volta à pátria, publicou Os Lusíadas e recebeu uma pequena pensão do rei D. Sebastião pelos serviços prestados à Coroa, mas nos seus anos finais parece ter enfrentado dificuldades para se manter. Bom fim-de-semana';
-        var speed = 1;
-
-        function typeWriter() {
-          if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
-        }
-      </script>
+      <script src="js/typeWriter.js"></script>
         <div class="tabela">
         <table>
           <tr>    
@@ -99,16 +73,7 @@
           <a href="http://www.paulogoncalves.eu/pg/moodle/index.php">Paulo Goncalves</a>
           <a href="https://www.google.pt/search?q=Carinho&client=opera&hs=JOw&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiWsfLFpIfhAhXL1eAKHRsJDbsQ_AUIDigB&biw=1880&bih=939#imgrc=qpU8HlQPDbXOMM:">Feito com muito:</a>
           <a href="https://pt.wikipedia.org/wiki/Wikipédia:Página_principal">Isto ajuda muito!</a>
-          <script>
-            function abrir() {
-              document.getElementById("HoverSeiLa1").style.width = "250px";
-              document.getElementById("HoverSeiLa").style.marginLeft = "250px";
-            }
-              function fechar() {
-                document.getElementById("HoverSeiLa1").style.width = "0px";
-                document.getElementById("HoverSeiLa").style.marginLeft = "0px";
-              }            
-            </script>
+          <script src="js/hover.js"></script>
         </div>
         <div class="marcelinhoo">
           <img src="images/republica.png" id="umaimagem">
@@ -123,124 +88,7 @@
                 route</a></iframe></div><br />
         </div>
         <style>
-          body {
-            font-family: Arial, Helvetica, sans-serif;
-          }
-        
-          /* The Modal (background) */
-          .modal {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4);
-            /* Black w/ opacity */
-            -webkit-animation-name: fadeIn;
-            /* Fade in the background */
-            -webkit-animation-duration: 0.4s;
-            animation-name: fadeIn;
-            animation-duration: 0.4s
-          }
-        
-          /* Modal Content */
-          .modal-content {
-            position: fixed;
-            bottom: 0;
-            background-color: #fefefe;
-            width: 100%;
-            -webkit-animation-name: slideIn;
-            -webkit-animation-duration: 0.4s;
-            animation-name: slideIn;
-            animation-duration: 0.4s
-          }
-        
-          /* The Close Button */
-          .close {
-            color: white;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-          }
-        
-          .close:hover,
-          .close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-          }
-        
-          .modal-header {
-            padding: 2px 16px;
-            background-color: #5cb85c;
-            color: white;
-          }
-        
-          .modal-body {
-            padding: 2px 16px;
-          }
-        
-          .modal-footer {
-            padding: 2px 16px;
-            background-color: #5cb85c;
-            color: white;
-          }
-        
-          /* Add Animation */
-          @-webkit-keyframes slideIn {
-            from {
-              bottom: -300px;
-              opacity: 0
-            }
-        
-            to {
-              bottom: 0;
-              opacity: 1
-            }
-          }
-        
-          @keyframes slideIn {
-            from {
-              bottom: -300px;
-              opacity: 0
-            }
-        
-            to {
-              bottom: 0;
-              opacity: 1
-            }
-          }
-        
-          @-webkit-keyframes fadeIn {
-            from {
-              opacity: 0
-            }
-        
-            to {
-              opacity: 1
-            }
-          }
-        
-          @keyframes fadeIn {
-            from {
-              opacity: 0
-            }
-        
-            to {
-              opacity: 1
-            }
-          }
+
         </style>
         <div id="Model" align="right">
           <div class="iframe-container">
@@ -266,30 +114,8 @@
               <h3>Modal Footer</h3>
             </div>
           </div>
-        
         </div>
-        
-        <script>
-          var modal = document.getElementById('myModal');
-
-          var btn = document.getElementById("myBtn");
-
-          var span = document.getElementsByClassName("close")[0];
-
-          btn.onclick = function () {
-            modal.style.display = "block";
-          }
-
-          span.onclick = function () {
-            modal.style.display = "none";
-          }
-
-          window.onclick = function (event) {
-            if (event.target == modal) {
-              modal.style.display = "none";
-            }
-          }
-        </script>
+      <script src="js/bar.js"></script>
         </div>
         <iframe src="https://giphy.com/embed/jzaZ23z45UxK8" width="180" height="180" frameBorder="0" class="giphy-embed"
           allowFullScreen></iframe>
