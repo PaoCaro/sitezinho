@@ -3,6 +3,11 @@
     <head>
         <title>Bertanto</title>
         <link rel="stylesheet" href="loja.css">
+        <link rel="stylesheet" href="imagens.css">
+        <link rel="stylesheet" href="slides.css">
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="icon" href="../../icons/stalky.png" type="imagem/gif">
     </head>
 
     <body>
@@ -12,8 +17,8 @@
         style="
         box-shadow: 1px 3px 20px 0px black;
         position: fixed;">
-            <ul>
-                <img class="logo" src="../../icons/stalky.png">
+            <ul id="categorias">
+                <img class="logoo" src="../../icons/stalky.png">
                 <li><a href="loja.html">Home</a></li>
                 <li><a href="#">Roupa</a>
                     <ul>
@@ -39,5 +44,51 @@
                 <li><a href="https://github.com/PaoCaro/sitezinho.git">Tiaguitos</a></li>
             </ul>
         </nav>
+        <div class="slideshow">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="assets/images/nik2.png" style="width:100%">
+              NIKE</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img class="correcao" src="assets/images/puma.jpg" style="width:100%">
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img class="correcao" src="assets/images/vans1.png" style="width:100%">
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img class="correcao" src="assets/images/adidas.jpg" style="width: 100%">
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="correcao" src="assets/images/mastersapatos.jpg" style="width: 100%">
+                </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+            <script src="loja.js"></script>
     </body>
 </html>

@@ -4,7 +4,10 @@
 	color:#aaa;
 	font-family:'Arial';
 	}
-	
+body {
+	background-color: rgb(202, 221, 221);
+}
+
 .menu{
 	width:100%;
 	height:50px;
@@ -104,6 +107,8 @@ label[for='bt_menu']{
 	}
 }
 
-.logo {
+.logoo {
 	width: 37px;
+	position: relative;
+	right: 1000px;
 }
