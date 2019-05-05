@@ -6,6 +6,7 @@ img {vertical-align: middle;}
 .slideshow {
   max-width: 1000px;
   margin: auto;
+  margin-right: 500px;
   padding-top: 100px;
 }
 
@@ -95,6 +96,7 @@ img {vertical-align: middle;}
 }
 
 .correcao {
-  max-width: 50%;
-  
+  padding-left: 270px;
+  width: 50%;
+  max-width: 90%;
 }
