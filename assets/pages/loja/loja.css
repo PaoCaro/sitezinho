@@ -1,114 +1,114 @@
 *{
-	margin:0;
-	padding:0;
-	color:#aaa;
-	font-family:'Arial';
+	margin:0 !important;
+	padding:0 !important;
+	color:#aaa !important;
+	font-family:'Arial' !important;
 	}
 body {
-	background-color: rgb(202, 221, 221);
+	background-color: rgb(202, 221, 221) !important;
 }
 
 .menu{
-	width:100%;
-	height:50px;
-	background-color: #222;
+	width:100% !important;
+	height:50px !important;
+	background-color: #222 !important;
 	}
 	
 .menu>ul{
-	list-style:none;	
-	position:relative;
+	list-style:none !important;	
+	position:relative !important;
 	/** Se der algumm problema foi aqui Tiaguinhoo!!
 	 * ok? */
-	margin-left: 299px;
+	margin-left: 299px !important;
 	}
 .menu ul li{
-		width:200px;
-		float:left;
+		width:200px !important;
+		float:left !important;
 	}
 
 .menu a{
-	padding:15px;
-	display:block;
-	text-decoration: none;
-	background-color: #222;
-	text-align:center;
+	padding:15px !important;
+	display:block !important;
+	text-decoration: none !important;
+	background-color: #222 !important;
+	text-align:center !important;
 	}
 .menu ul ul{
-	list-style:none;
-	position:absolute;
-	visibility:hidden;
+	list-style:none !important;
+	position:absolute !important;
+	visibility:hidden !important;
 	
 	}
 .menu ul li:hover ul{
-	visibility:visible;
+	visibility:visible !important;
 	}
 	
 .menu a:hover{
-	background-color:#f4f4f4;
+	background-color:#f4f4f4 !important;
 	}
 
 .menu ul ul li{
-	float:none;
-	border-bottom: solid 1px #ccc;
+	float:none !important;
+	border-bottom: solid 1px #ccc !important;
 	}
 .menu ul ul li a{
-	background-color:#069;
+	background-color:#069 !important;
 	}
 #bt_menu{
-	display: none;
+	display: none !important;
 	}
 label[for='bt_menu']{
-	padding:5px;
-	background-color:#222;
-	color:#fff;
-	font-family:'Arial';
-	text-align:center;
-	font-size:30px;
-	cursor:pointer;
-	display:none;
-	width:50px;
-	height:50px;
+	padding:5px !important;
+	background-color:#222 !important;
+	color:#fff !important;
+	font-family:'Arial' !important;
+	text-align:center !important;
+	font-size:30px !important;
+	cursor:pointer !important;
+	display:none !important;
+	width:50px !important;
+	height:50px !important;
 	}	
 label[for='bt_menu']:hover{
-	background-color:#f4f4f4;
-	color:#aaa;
+	background-color:#f4f4f4 !important;
+	color:#aaa !important;
 	}
 @media (max-width: 800px) {
 .menu{
-	margin-left:-100%;
-	transition:all .4s;
+	margin-left:-100% !important;
+	transition:all .4s !important;
 	}
 label[for='bt_menu']{
-	display:block;
+	display:block !important;
 	}
 .menu>ul{
-	margin-left:0;
+	margin-left:0 !important;
 	}
 .menu{
-	margin-top:5px;
+	margin-top:5px !important;
 	}
 .menu ul li{
-	width:100%;
-	float:none;
+	width:100% !important;
+	float:none !important;
 	}
 .menu ul ul{
-	position:static;
-	overflow:hidden;
-	max-height:0;
-	transition:all .4s;
+	position:static !important;
+	overflow:hidden !important;
+	max-height:0 !important;
+	transition:all .4s !important;
 	}
 .menu ul li:hover ul{
-	height:auto;
-	max-height:200px;
-	transition:all .4s;
+	height:auto !important;
+	max-height:200px !important;
+	transition:all .4s !important;
 	}
 #bt_menu:checked ~ .menu{
-	margin-left:0;
+	margin-left:0 !important;
 	}
 }
 
 .logoo {
-	width: 37px;
-	position: relative;
-	right: 1000px;
+	width: 37px !important;
+	position: relative !important;
+	right: 1000px !important;
 }
