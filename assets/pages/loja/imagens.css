@@ -1,13 +1,3 @@
-.nik2 {
-    max-width: 400px !important;
-    width: 100% !important;
-    height: auto !important;
-    padding-top: 50px !important;
-    position: relative !important;
-    right: 150px !important;
-}
-
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #produtos {
     background: #eee !important;
 }

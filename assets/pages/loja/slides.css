@@ -1,102 +1,97 @@
-* {box-sizing: border-box !important}
-body {font-family: Verdana, sans-serif; margin:0 !important}
-.mySlides {display: none !important}
-img {vertical-align: middle !important;}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
-.slideshow {
-  max-width: 1000px !important;
-  margin: auto !important;
-  margin-right: 500px !important;
-  padding-top: 100px !important;
+.slideshow-container {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 0%;
+  margin: auto;
 }
 
-
 .prev, .next {
-  cursor: pointer !important;
-  position: absolute !important;
-  top: 50% !important;
-  width: auto !important;
-  padding: 16px !important;
-  margin-top: -22px !important;
-  color: white !important;
-  font-weight: bold !important;
-  font-size: 18px !important;
-  transition: 0.6s ease !important;
-  border-radius: 0 3px 3px 0 !important;
-  user-select: none !important;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 .next {
-  right: 0 !important;
-  border-radius: 3px 0 0 3px !important;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8) !important;
+  background-color: rgba(0,0,0,0.8);
 }
-
 
 .text {
-  color: #f2f2f2 !important;
-  font-size: 15px !important;
-  padding: 8px 12px !important;
-  position: absolute !important;
-  bottom: 8px !important;
-  width: 100% !important;
-  text-align: center !important;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
-
 
 .numbertext {
-  color: #f2f2f2 !important;
-  font-size: 12px !important;
-  padding: 8px 12px !important;
-  position: absolute !important;
-  top: 0 !important;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-
 .dot {
-  cursor: pointer !important;
-  height: 15px !important;
-  width: 15px !important;
-  margin: 0 2px !important;
-  background-color: #bbb !important;
-  border-radius: 50% !important;
-  display: inline-block !important;
-  transition: background-color 0.6s ease !important;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171 !important;
+  background-color: #717171;
 }
 
-
 .fade {
-  -webkit-animation-name: fade !important;
-  -webkit-animation-duration: 1.5s !important;
-  animation-name: fade !important;
-  animation-duration: 1.5s !important;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4 !important} 
-  to {opacity: 1 !important }
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4 !important} 
-  to {opacity: 1 !important} 
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-
-@media only screen and (max-width: 300px ) {
-  .prev, .next,.text {font-size: 11px !important}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 
 .correcao {
-  padding-left: 270px !important;
-  width: 50% !important;
-  max-width: 90% !important;
+  padding-left: 270px;
+  width: 50%;
+  max-width: 90%;
 }
