@@ -3,20 +3,25 @@
   <head>
       <title>Bertanto - Eletronic Arts</title>
     <meta charset="utf-8">
+    <link rel="icon" href="../../icons/EA.png" type="imagem/gif">
     <link rel="stylesheet" href="EA.css">
-    <link rel="stylesheet" href="../../../../../font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../../../../../font/fontawesome/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="../../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../../../../node_modules/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../../../node_modules/animate.css/animate.min.css">
+    <link href="../../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="../../../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../../../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
     <h1>Eletronic Arts</h1>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Bertanto - Eletronic Arts</a>
+    <img class="ealogo" src="../../icons/EA.png">
+    <a class="navbar-brand" id="titul" href="#">Bertanto - Eletronic Arts</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,27 +50,42 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active" style="background-image: url('https://media.contentapi.ea.com/content/dam/www-thesims/News/07-2017/sims-console-video.jpg.adapt.crop16x9.1920w.jpg');">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-1">The Sims 4</h2>
-          <p class="lead">This is a description for the first slide.</p>
+          <img class="thesims4" src="https://purepng.com/public/uploads/large/purepng.com-the-sims-4-logologosgame-companylogobrand-logo-11529158575zgozy.png">
+          <p class="lead"><span class="descri4">The Sims 4 é o quarto título da franquia de jogos eletrônicos de simulação de vida</span></p>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg')">
+      <div class="carousel-item" style="background-image: url('../../images/battlefield_5_battlefield_v-1280x720.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-1">Second Slide</h2>
-          <p class="lead">This is a description for the second slide.</p>
+          <img class="bf5" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Battlefield_V_logo.png">
+          <p class="lead">Battlefield V é um jogo eletrônico de tiro em primeira pessoa situado na Segunda Guerra Mundial</p>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://1.bp.blogspot.com/-GWl5F8P4t-8/XB4_VV4VE5I/AAAAAAAAAKE/SmHRzas-LpMpDBoLn6otR9AznVsr6L7OgCEwYBhgL/s1600/t1larg.africa.cnn.jpg')">
+      <div class="carousel-item" style="background-image: url('https://ombrelo.com.br/wp-content/uploads/2018/10/fifa19copertina_720.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-1">Third Slide</h2>
-          <p class="lead">This is a description for the third slide.</p>
+          <img class="fifa19" src="https://media.playstation.com/is/image/SCEA/fifa-19-logo-01-ps4-us-08jun18?$native_t$">
+          <p class="lead" id="fiffa">FIFA 19 é um jogo eletrônico de futebol desenvolvido publicado pela EA Sports.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('https://i2.wp.com/glitched.africa/wp-content/uploads/2019/02/Apex-Legends-Which-Character-to-Pick.jpg?fit=1280%2C720&ssl=1')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4" id="apex">Apex Legends</h2>
+          <p class="lead" id="apex">Apex Legends é um jogo eletrônico free-to-play do gênero Battle Royale </p>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('https://i.ytimg.com/vi/yGZGSdgJVPM/maxresdefault.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="lead" id="apex">A Way Out é um intenso jogo de aventura cooperativo onde os personagens fogem da prisão e continuam além </p>
         </div>
       </div>
     </div>
@@ -83,8 +103,10 @@
 <!-- Page Content -->
 <section class="py-5 text-center">
       <div class="container"> 
-        <h2 class="text-center">Luckmoshy`s Services</h2>
-        <p class="text-muted mb-5 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <div class="animated fadeInLeft">
+        <h2 class="text-center"><img class="acee"src="../../icons/EA.png"> <span class="acess">Acess</span></h2>
+        <p class="text-muted mb-5 text-center" id="play">PLAY THE BEST OF EA.</p>
+      </div>
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">

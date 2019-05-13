@@ -1,5 +1,5 @@
-@font-face { font-family: Sims4; font-weight: bold; src: url('../../../../../font/TheSims4/sims4.ttf'); } 
-
+@font-face { font-family: Sims4; font-weight: bold; src: url('../../../../../../font/TheSims4/sims4.ttf'); } 
+@font-face { font-family: Apex; font-weight: bold; src: url('../../../../../../font/Apex/blocktastic.otf') }
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -42,4 +42,43 @@
 
  .display-1 {
     font-family: 'Sims4', bold;
+  }
+
+  .descri4 {
+    font-family: 'Sims4';
+  }
+
+  .thesims4 {
+    width: 62%;
+  }
+
+  .ealogo {
+    width: 5%;
+  }
+
+  #titul {
+    padding-left: 13px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  #fiffa {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #apex {
+    font-family: 'Apex', sans-serif;
+    
+  }
+
+  .acess {
+    font-family: 'Russo One', sans-serif;
+  }
+
+  .acee {
+    width: 6%;
+  }
+
+  #play {
+    font-family: 'Roboto', sans-serif;
   }
