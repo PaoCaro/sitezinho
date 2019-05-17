@@ -1,88 +1,111 @@
-@font-face { font-family: Sims4; font-weight: bold; src: url('../../../../../../font/TheSims4/sims4.ttf'); } 
-@font-face { font-family: Apex; font-weight: bold; src: url('../../../../../../font/Apex/blocktastic.otf') }
+@font-face {
+  font-family: Sims4;
+  font-weight: bold;
+  src: url('../../../../../../font/TheSims4/sims4.ttf');
+}
+
+@font-face {
+  font-family: Apex;
+  font-weight: bold;
+  src: url('../../../../../../font/Apex/blocktastic.otf')
+}
+
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  
-  .lnr {
-    display: inline-block;
-    fill: currentColor;
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.05em;
-    stroke-width: 1;
-  }
-  
-  .services-icon {
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-  bgc2, .vLine, .hLine {
-      background-color: #0F52BA;
-  }
-  
-  .quote-icon {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .services-icon {
-      font-size: 60px;
-      margin-left: 2rem;
-  }
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
- .display-1 {
-    font-family: 'Sims4', bold;
-  }
+section {
+  padding-bottom: 5rem;
+  max-width: 1024px;
+  margin: auto;
+  height: auto;
+}
 
-  .descri4 {
-    font-family: 'Sims4';
-  }
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  stroke-width: 1;
+}
 
-  .thesims4 {
-    width: 62%;
-  }
+.services-icon {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
 
-  .ealogo {
-    width: 5%;
-  }
+bgc2,
+.vLine,
+.hLine {
+  background-color: #0F52BA;
+}
 
-  #titul {
-    padding-left: 13px;
-    font-family: 'Roboto', sans-serif;
-  }
+.quote-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.services-icon {
+  font-size: 60px;
+  margin-left: 2rem;
+}
+
+.display-1 {
+  font-family: 'Sims4', bold;
+}
+
+.descri4 {
+  font-family: 'Sims4';
+}
+
+.thesims4 {
+  width: 62%;
+}
+
+.ealogo {
+  width: 5%;
+}
+
+#titul {
+  padding-left: 13px;
+  font-family: 'Roboto', sans-serif;
+}
 
 
-  #fiffa {
-    font-family: 'Roboto', sans-serif;
-  }
+#fiffa {
+  font-family: 'Roboto', sans-serif;
+}
 
-  #apex {
-    font-family: 'Apex', sans-serif;
-    
-  }
+#apex {
+  font-family: 'Apex', sans-serif;
 
-  .acess {
-    font-family: 'Russo One', sans-serif;
-  }
+}
 
-  .acee {
-    width: 6%;
-  }
+.acess {
+  font-family: 'Russo One', sans-serif;
+}
 
-  #play {
-    font-family: 'Roboto', sans-serif;
-  }
+.acee {
+  width: 6%;
+}
 
-  h6 {
-    font-family: 'Rubik', sans-serif;
-  }
+#play {
+  font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+#algum {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+}
