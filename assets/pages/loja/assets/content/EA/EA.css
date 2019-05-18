@@ -109,3 +109,23 @@ h6 {
   color: black;
   text-align: center;
 }
+
+.eabut {
+  position: relative;
+  top: 20px;
+  left: 175px;
+}
+
+#tiaguitos {
+  color: #343a40;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center
+}
+
+.oribut {
+  position: relative;
+  left: 606px;
+  top: 21px;
+}
