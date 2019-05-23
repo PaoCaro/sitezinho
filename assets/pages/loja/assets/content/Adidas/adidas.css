@@ -1,5 +1,6 @@
 .row1{
     padding-top: 10px;
+    height: 123px;
 }
 
 .row2 {
@@ -62,13 +63,25 @@
 }
 
 #flipkart-navbar {
-    background-color: gray;
+    background-color: rgb(21, 211, 78);
     color: #afffaf;
 }
 
 .adidas {
-    width: 10%;
-    height: 30%;
+    width: 145px;
+    max-height: -webkit-fill-available;
+    height: 101px;
     position: relative;
     bottom: 7px;
+}
+
+canvas[resize] {
+    width: 615px;
+    height: 126px;
+    max-width: 495px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleY(-1);
+    position: relative;
+    bottom: 10px;
+    right: 95px;
 }
