@@ -1,6 +1,73 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #produtos {
-    background: #eee !important;
+    /* Suporte para todos os navegadores ! */
+
+	/* W3C */
+	background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+	/* Firefox */
+	background: -moz-linear-gradient(top, #ff3232 0%, #fcf528 16%, #28fc28 32%, #28fcf8 50%, #272ef9 66%, #ff28fb 82%, #ff3232 100%);
+
+	/* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#fcf528), color-stop(32%,#28fc28), color-stop(50%,#28fcf8), color-stop(66%,#272ef9), color-stop(82%,#ff28fb), color-stop(100%,#ff3232));
+
+	/* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+	background-size: 1000%;
+	-moz-background-size: 1000%;
+	-webkit-background-size: 1000%;	
+
+	/* W3C */
+	animation-name: fun-time-awesome;
+	animation-duration: 40s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+
+	/* Firefox: */
+	-moz-animation-name: fun-time-awesome;
+	-moz-animation-duration: 40s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-play-state: running;
+
+	/* Chrome, Safari */
+	-webkit-animation-name: fun-time-awesome;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+/* W3C */
+@keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+/* Firefox */
+@-moz-keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+/* Chrome, Safari */
+@-webkit-keyframes fun-time-awesome {
+	0% {background-position: left top;}
+	100% {background-position: left bottom;}
+}
+
+/* Mobile */
+@media screen and (max-device-width: 480px) {
+	body {
+		height: 120%;
+    }
+
+    
 }
 
 .btn-primary:hover,
@@ -30,7 +97,7 @@ section .section-title {
 
 #produtos .card {
     border: none;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom right, aqua, pink);
 }
 
 .image-flip:hover .backside,
@@ -49,6 +116,10 @@ section .section-title {
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+#text-backside {
+    color: black
 }
 
 .mainflip {
@@ -103,6 +174,11 @@ section .section-title {
     -ms-transform-style: preserve-3d;
     transition: 1s;
     transform-style: preserve-3d;
+    
+}
+
+#sombra {
+    box-shadow: 16px 20px 50px -31px rgb(37, 34, 34);
 }
 
 .frontside .card,
@@ -117,9 +193,13 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #04ad86 !important;
 }
 
 .frontside .card .card-body img {
     height: 120px;
+}
+
+p {
+    color: whitesmoke
 }
