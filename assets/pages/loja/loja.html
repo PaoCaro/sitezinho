@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html lang='pt'>
-    <head>
-        <title>Bertanto</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="rainbow.css">
-        <link rel="stylesheet" href="loja.css">
-        <link rel="stylesheet" href="imagens.css">
-        <link rel="stylesheet" href="slides.css">
-        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="icon" href="../../icons/stalky.png" type="imagem/gif">
-    </head>
 
-    <body>
-        <input type="checkbox" id="bt_menu">
-        <label for="bt_menu">&#9776;</label>
-        <nav class="menu" 
-        style="
+<head>
+    <title>Bertanto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rainbow.css">
+    <link rel="stylesheet" href="loja.css">
+    <link rel="stylesheet" href="imagens.css">
+    <link rel="stylesheet" href="slides.css">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" href="../../icons/stalky.png" type="imagem/gif">
+</head>
+
+<body>
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+    <nav class="menu" style="
         box-shadow: 1px 3px 20px 0px black;
         position: fixed;">
-            <ul class="categorias">
-                <img class="logoo" src="../../icons/stalky.png">
-                <li><a href="loja.html">Home</a></li>
-                <li><a href="#">Roupa</a>
-                    <ul class="correcaoo">
-                        <li><a href="assets/pages/Acessorios.html">Acessorios</a>
-                        <li><a href="assets/pages/partecima.html">Partes de cima</a>
-                        <li><a href="assets/pages/partebaixo.html">Partes de baixo</a>
-                        <li><a href="assets/pages/tênis.html">Tênis</a>
-                    </ul>
-                </li>
-                <li><a href="#">Jogos</a>
-                    <ul class="submenu">
-                        <li><a href="#">Ubisoft</a>
-                        <li><a href="#">EA</a>
-                        <li><a href="#">Categorias</a>
-                            <ul class="submenu">
-                                <li><a href="#">Ação</a></li>
-                                <li><a href="#">Mundo Aberto</a></li>
-                                <li><a href="#">RPG</a></li>
-                                <li><a href="#">FPS</a></li>
-                            </ul>
-                    </ul>
-                </li>
-                <li><a href="https://github.com/PaoCaro/sitezinho.git">Tiaguitos</a></li>
-            </ul>
-        </nav>
+        <ul class="categorias">
+            <img class="logoo" src="../../icons/stalky.png">
+            <li><a href="loja.html">Home</a></li>
+            <li><a href="#">Roupa</a>
+                <ul class="correcaoo">
+                    <li><a href="assets/pages/Acessorios.html">Acessorios</a>
+                    <li><a href="assets/pages/partecima.html">Partes de cima</a>
+                    <li><a href="assets/pages/partebaixo.html">Partes de baixo</a>
+                    <li><a href="assets/pages/tênis.html">Tênis</a>
+                </ul>
+            </li>
+            <li><a href="#">Jogos</a>
+                <ul class="submenu">
+                    <li><a href="#">Ubisoft</a>
+                    <li><a href="#">EA</a>
+                    <li><a href="#">Categorias</a>
+                        <ul class="submenu">
+                            <li><a href="#">Ação</a></li>
+                            <li><a href="#">Mundo Aberto</a></li>
+                            <li><a href="#">RPG</a></li>
+                            <li><a href="#">FPS</a></li>
+                        </ul>
+                </ul>
+            </li>
+            <li><a href="https://github.com/PaoCaro/sitezinho.git">Tiaguitos</a></li>
+        </ul>
+    </nav>
 
-        <div class="galeria">
-            <div class="MySlides fade">
-                <div class="numbertext"> 1 / 5</div>
-                <img src="assets/images/nik2.png" style="width: 100%; padding-top: 100px;">
-            </div>
-
-            <div class="MySlides fade">
-                <div class="numbertext"> 2 / 5</div>
-                <img  class="correcao" src="assets/images/adidas2.jpg" style="width: 100%; padding-top: 100px;">
-            </div>
-
-            <div class="MySlides fade">
-                <div class="numbertext"> 3 / 5</div>
-                <img class="correcao" src="assets/images/vans1.png" style="width: 100%; padding-top: 100px;">
-            </div>
-
-            <div class="MySlides fade">
-                <div class="numbertext"> 4 / 5</div>
-                <img class="correcao" src="assets/images/puma.jpg" style="width: 100%; padding-top: 100px;">
-            </div>
-
-            <div class="MySlides fade">
-                <div class="numbertext"> 5 / 5</div>
-                <img class="correcao" src="assets/images/mastersapatos.jpg" style="width: 100%; padding-top: 100px;">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="seguinte" onclick="plusSlides(1)">&#10095;</a>
+    <div class="galeria">
+        <div class="MySlides fade">
+            <div class="numbertext"> 1 / 5</div>
+            <img src="assets/images/nik2.png" style="width: 100%; padding-top: 100px;">
         </div>
-        <br>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-            <span class="dot" onclick="currentSlide(4)"></span> 
-            <span class="dot" onclick="currentSlide(5)"></span> 
-          </div>
-          <script src="loja.js"></script>
 
-          <div class="iframes">
-              <iframe src="assets/review/bootstrap/bootstrap.html" scrolling="no"></iframe>
-          </div>
-    </body>
+        <div class="MySlides fade">
+            <div class="numbertext"> 2 / 5</div>
+            <img class="correcao" src="assets/images/adidas2.jpg" style="width: 100%; padding-top: 100px;">
+        </div>
+
+        <div class="MySlides fade">
+            <div class="numbertext"> 3 / 5</div>
+            <img class="correcao" src="assets/images/vans1.png" style="width: 100%; padding-top: 100px;">
+        </div>
+
+        <div class="MySlides fade">
+            <div class="numbertext"> 4 / 5</div>
+            <img class="correcao" src="assets/images/puma.jpg" style="width: 100%; padding-top: 100px;">
+        </div>
+
+        <div class="MySlides fade">
+            <div class="numbertext"> 5 / 5</div>
+            <img class="correcao" src="assets/images/mastersapatos.jpg" style="width: 100%; padding-top: 100px;">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="seguinte" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script src="loja.js"></script>
+    <div class="mais">
+        <a href="../loja/assets/animation/AtoZ.html"><button class="button" style="vertical-align: middle"><span id="D">Animações </span></button></a>
+    </div>
+    <div class="iframes">
+        <iframe src="assets/review/bootstrap/bootstrap.html" scrolling="no"></iframe>
+    </div>
+</body>
+
 </html>
