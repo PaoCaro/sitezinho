@@ -2,7 +2,7 @@ const app = new PIXI.Application({ backgroundColor: 0x1099bb });
 document.body.appendChild(app.view);
 
 
-const texture = PIXI.Texture.from('examples/assets/bunny.png');
+const texture = PIXI.Texture.from('../img/pop.png');
 
 
 texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
