@@ -12,12 +12,10 @@
 
 <body>
 
-    <div class="c">
-        <div class="c">
+    <div class="d">
+        <div class="d">
             <script>
-                const app = new PIXI.Application({
-                    backgroundColor: 0x1099bb
-                });
+                const app = new PIXI.Application
                 document.body.appendChild(app.view);
 
 
@@ -26,7 +24,7 @@
 
                 texture.baseTexture.scaleMode = PIXI.SCALE_MODES.NEAREST;
 
-                for (let i = 0; i < 10; i++) {
+                for (let i = 0; i < 1; i++) {
                     createBunny(Math.floor(Math.random() * app.screen.width),
                         Math.floor(Math.random() * app.screen.height), );
                 }
@@ -37,9 +35,8 @@
                     bunny.interactive = true;
                     bunny.buttonMode = true;
                     bunny.anchor.set(0.5);
-                    bunny.scale.set(3);
-                    bunny.on('pointerdown', onDragStart).on('pointerup', onDragEnd)
-                        .on('pointerupoutside', onDragEnd).on('pointermove', onDragMove);
+                    bunny.scale.set(0.5);
+                    bunny.on('pointerdown', onDragStart).on('pointerup', onDragEnd).on('pointerupoutside', onDragEnd).on('pointermove', onDragMove);
                     bunny.x = x;
                     bunny.y = y;
                     app.stage.addChild(bunny);
@@ -59,8 +56,7 @@
 
                 function onDragMove() {
                     if (this.dragging) {
-                        const
-                            newPosition = this.data.getLocalPosition(this.parent);
+                        const newPosition = this.data.getLocalPosition(this.parent);
                         this.x = newPosition.x;
                         this.y = newPosition.y;
                     }
