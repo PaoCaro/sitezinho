@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <button onclick="fodase()">OLAAAA</button>
+    
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script>
+    var config = {
+        apiKey: "AIzaSyA0M-lhi3iz6pBur7EDHGk45Tpv7YfRxxw",
+        authDomain: "bertanto-6ea76.firebaseapp.com",
+        databaseURL: "https://bertanto-a76.firebaseio.com",
+        projectId: "bertanto-6ea76",
+        storageBucket: "",
+        messagingSenderId: "411800166080",
+        appId: "1:411800166080:web:25cf232ce78233d3"
+    };
+
+    firebase.initializeApp(config);
+
+    fodase=()=>{
+        base_provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(base_provider).then(function(result){
+            console.log(result)
+            console.log("fds")
+        }).catch(function(err){
+            console.log(err)
+            console.log("FDS")
+        });
+    }
+</script>
+
+</html>
