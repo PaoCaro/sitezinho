@@ -5,3 +5,13 @@ canvas {
 .BB {
     float: right
 }
+
+.ps {
+    box-shadow: 3px 4px 20px 5px black;
+}
+
+.pss {
+    width: 36%;
+    position: relative;
+    bottom: 92px;
+}

@@ -18,7 +18,7 @@ $(document).ready(function(){
     document.onmousemove = handleMouse;
 
      $(window).scroll(function(){
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 10) {
             $('header').css("background-color","rgba(34,123,165,.8)");
         } else {
             $('header').css("background-color","rgba(255,255,255,0)");
@@ -111,4 +111,4 @@ function init() {
 
 
 }
-window.setInterval(init, 144000);
+window.setInterval(init, 2000);

@@ -1,9 +1,14 @@
+html {
+	zoom: 73%
+}
+
 body{
+	-moz-transform: scale(0.1);
 	margin: 0;
 	padding: 0;
 	background-color: #0e6cc4;
 	overflow-x:hidden;
-	overflow-y:hidden;
+	overflow-y: hidden;
 }
 
 header{
@@ -236,6 +241,10 @@ header div{
 	background-image: url("https://m.media-amazon.com/images/I/71mdT22nL+L._SS500_.jpg");
 }
 
+.pug {
+	background-image: url("https://cdn.discordapp.com/attachments/579617572220043267/608712785794302050/pug.jpg")
+}
+
 
 
 .storeGame{
@@ -245,35 +254,35 @@ header div{
 }
 
 #god{
-	background-image: url("https://i.postimg.cc/bY7QwSfF/god.png");
+	background-image: url("https://cdn.discordapp.com/attachments/579617572220043267/608712785794302050/pug.jpg");
 }
 
 #raider{
-	background-image: url("https://i.postimg.cc/VLyY6nsT/tomb.png");
+	background-image: url("https://media.istockphoto.com/photos/dog-being-teased-with-a-biscuit-picture-id1148207181?k=6&m=1148207181&s=612x612&w=0&h=LmzN6A1xcPJFUbDV9-vznF2589o-vqIbRR2BnuyXmH0=");
 }
 
 #codi{
-	background-image: url("img/gta.png");
+	background-image: url("https://cdn.discordapp.com/attachments/579617572220043267/608712679149797406/pug.jpg");
 }
 
 #mafia{
-	background-image: url("https://i.postimg.cc/gk94xTPp/mafia.png");
+	background-image: url("https://media.istockphoto.com/photos/dog-being-teased-with-a-biscuit-picture-id1148207129?k=6&m=1148207129&s=612x612&w=0&h=_9pTkvt-SiYRCWLaYjPDzdH1KdpfkFrZgdW5hFGb46U=");
 }
 
 #destiny{
-	background-image: url("https://i.postimg.cc/ncbwWCgJ/destiny.png");
+	background-image: url("https://media.istockphoto.com/photos/dog-being-teased-with-a-biscuit-picture-id1148207117?k=6&m=1148207117&s=612x612&w=0&h=YkI3fRmlahHcf5AAy1xQ-4WRNB82UODvLp2oeIL-f3g=");
 }
 
 #bt1{
-	background-image: url("https://i.postimg.cc/fT4GmHvD/b1.png");
+	background-image: url("https://cdn.discordapp.com/attachments/579617572220043267/608999837152575498/wAAAABJRU5ErkJggg.png");
 }
 
 #lg{
-	background-image: url("https://i.postimg.cc/sfkNC263/horizon.png");
+	background-image: url("https://media.gettyimages.com/photos/dog-being-teased-with-a-biscuit-picture-id1148207182?b=1&k=6&m=1148207182&s=612x612&w=0&h=8ZAvIsU1CQk8gnicFt1zLDi013UNhTJogpVTKSajwas=");
 }
 
 #per{
-	background-image: url("https://i.postimg.cc/QxGz5trH/per.png");
+	background-image: url("https://cdn.discordapp.com/attachments/579617572220043267/609000685224198154/MVAsyWLLfz4xGfAAAAABJRU5ErkJggg.png");
 }
 
 
@@ -289,7 +298,7 @@ header div{
 #store div{
 	float: left;
 	border: 3px solid rgba(245,245,245,1);
-	width: 12em;
+	width: 18em;
 	height: 12em;
 	display: inline-block;
 }
