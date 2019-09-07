@@ -1,0 +1,11 @@
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.conte {
+    position: fixed;
+    display: grid;
+  }
