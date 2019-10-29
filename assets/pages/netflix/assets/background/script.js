@@ -56,7 +56,7 @@ function DrawWorm() {
 				o.count++;
 			} else {
 				len--;
-				vms.splice(i, 1);
+				vms.splice(i, 2);
 				i--;
 			}
 		}
@@ -67,7 +67,7 @@ function DrawWorm() {
 	var DrawWorm = function (obj) {
 
 		if (Math.random() > 0.9) {
-			obj.tmt.rotate(-obj.r * 2);
+			obj.tmt.rotate(-obj.r * 4);
 			obj.r *= -1;
 		}
 
@@ -85,8 +85,8 @@ function DrawWorm() {
 		var pp2x = (obj.c2x + cc2x) / 2;
 		var pp2y = (obj.c2y + cc2y) / 2;
 
-		context.fillStyle = '#000000';
-		context.strokeStyle = '#000000';
+		context.fillStyle = '#dc1a28';
+		context.strokeStyle = '#dc1a28';
 		context.beginPath();
 
 		context.moveTo(obj.p1x, obj.p1y);
@@ -134,7 +134,7 @@ function DrawWorm() {
 		createWorm(matrix, len);
 
 		context.beginPath();
-		context.strokeStyle = '#000000';
+		context.strokeStyle = '#141414';
 		context.moveTo(px, py);
 		context.lineTo(x0, y0);
 		context.stroke();
@@ -208,7 +208,7 @@ function DrawWorm() {
 	}
 
 	var fadeScreen = function () {
-		context.fillStyle = 'rgba(255, 255, 255, 0.02)';
+		context.fillStyle = '#141414';
 		context.beginPath();
 		context.rect(0, 0, width, height);
 		context.closePath();

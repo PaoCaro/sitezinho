@@ -1,6 +1,15 @@
 html,
 body {
-  overflow-y: scroll;
+  overflow-y: scroll
+}
+
+img {
+  padding: 20px
+}
+
+.movie {
+  margin: 72px;
+  padding-left: 77px;
 }
 
 .cartaz {
